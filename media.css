@@ -1,0 +1,131 @@
+@media only screen and (max-width: 1280px) {
+    .card-section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about-partners {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .bar {
+        margin: 0 0 1rem 0;
+    }
+
+    .bar-grid {
+        display: grid;
+        gap: 0;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .bar-grid h2 {
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen and (max-width:710px) {
+    header .logo {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width:630px) {
+    header {
+        padding: 0 1em;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card-section {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+
+
+    }
+
+    .active {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        background:#000;
+    }
+    header ul li{
+        margin: auto;
+    }
+
+    .contact-container {
+        max-width: 100%;
+    }
+
+    .about-vision {
+        grid-template-columns: 1fr;
+    }
+
+    .section-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .bar-grid {
+        gap: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .section-footer-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+
+
+    .contact-container h2 {
+        font-size: 1rem;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .about-partners {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    footer p {
+        font-size: 0.8rem;
+    }
+}

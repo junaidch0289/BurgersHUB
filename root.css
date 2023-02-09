@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Comic+Neue:wght@300&display=swap');
+
+:root {
+    --bg-clr: #f5f5f5;
+    --brdr-clr: #101010;
+    --shdw-clr: #101010;
+    --hd-ft-clr: #fff;
+    --txt-icon-clr: #34aadc;
+    --para-clr: rgb(73, 73, 73);
+    --heading-font: 'Chakra Petch', sans-serif;
+    --para-font: 'Comic Neue', cursive;
+}
